@@ -13,9 +13,21 @@ ro.charger.enable_suspend=1
 # CNE
 persist.vendor.cne.feature=1
 
+# Dirac
+ro.vendor.dirac.acs.controller=gef
+ro.vendor.dirac.gef.mode=global
+ro.vendor.dirac.config=512
+ro.vendor.dirac.poolsize=3
+ro.vendor.dirac.acs.storeSettings=1
+ro.vendor.dirac.acs.ignore_error=1
+
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
+
 # Display
 debug.sf.enable_hwc_vds=1
 persist.sys.sf.native_mode=260
+persist.sys.sf.color_mode=0
 
 # Fingerprint
 ro.bootloader.locked=0
@@ -47,7 +59,13 @@ ro.nfc.port=I2C
 persist.vendor.radio.atfwd.start=true
 ril.subscription.types=NV,RUIM
 ro.telephony.default_network=33,33
+ro.telephony.sim_slots.count=2
+ro.vendor.use_data_netmgrd=true
+telephony.active_modems.max_count=2
 telephony.lteOnCdmaDevice=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
 
 # RmNet
 persist.rmnet.data.enable=true
