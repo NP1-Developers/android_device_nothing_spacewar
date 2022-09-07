@@ -107,7 +107,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/nothing/spacewar
-TARGET_KERNEL_CONFIG := gki_defconfig
+TARGET_KERNEL_CONFIG := np1-developers_defconfig
 
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
