@@ -128,7 +128,8 @@ BOARD_KERNEL_CMDLINE := \
     loop.max_part=7 \
     iptable_raw.raw_before_defrag=1 \
     ip6table_raw.raw_before_defrag=1 \
-    androidboot.selinux=permissive
+    androidboot.selinux=permissive \
+    console=ttyGS0,115200
 
 KERNEL_SD_LLVM_SUPPORT := true 
 
