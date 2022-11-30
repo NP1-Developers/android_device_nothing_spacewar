@@ -124,7 +124,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.3-impl \
     audio_amplifier.lahaina \
     audio.bluetooth.default \
-    audio.primary.lahaina \
     audio.r_submix.default \
     audio.usb.default \
     audioadsprpcd \
@@ -146,7 +145,6 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libsndmonitor \
     libspkrprot \
-    libssrec \
     libtinycompress \
     libvisualizer \
     libvolumelistener \
